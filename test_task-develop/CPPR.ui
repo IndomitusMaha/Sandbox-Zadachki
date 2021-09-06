@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>513</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>513</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>513</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color: rgb(65, 102, 245);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="Button">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>220</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(0, 0, 0);
+background-color: rgb(246, 250, 5);
+background-image: url(:/arrow right/images/Karatau yellow background.png);
+border-style:outset;
+border-radius:10px;
+font: 100 14pt &quot;Arial&quot; ;
+}
+QPushButton:hover{
+color:rgb(0, 0, 05);
+background-color: rgb(245, 169, 17);
+border-radius:5px;
+}
+QPushButton:pressed{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 148, 164);
+}</string>
+    </property>
+    <property name="text">
+     <string>Объденить и сортировать</string>
+    </property>
+   </widget>
+  </widget>
+  <action name="actionGlobalMap">
+   <property name="text">
+    <string>Глобальная</string>
+   </property>
+  </action>
+  <action name="actionCPPR">
+   <property name="text">
+    <string>ЦППР</string>
+   </property>
+  </action>
+  <action name="actionAP">
+   <property name="text">
+    <string>АП</string>
+   </property>
+  </action>
+  <action name="actionGBK">
+   <property name="text">
+    <string>ГБК</string>
+   </property>
+  </action>
+  <action name="actionPoligon">
+   <property name="text">
+    <string>Полигон</string>
+   </property>
+  </action>
+  <action name="actionRaskomandirovka">
+   <property name="text">
+    <string>Раскомандировка</string>
+   </property>
+  </action>
+  <action name="actionFKhLFirstFloor">
+   <property name="text">
+    <string>Первый этаж</string>
+   </property>
+  </action>
+  <action name="actionFKhLSecondFloor">
+   <property name="text">
+    <string>Второй этаж</string>
+   </property>
+  </action>
+  <action name="KIPiA">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>КИПиА</string>
+   </property>
+  </action>
+  <action name="SGE">
+   <property name="text">
+    <string>СГЭ</string>
+   </property>
+  </action>
+  <action name="SGM">
+   <property name="text">
+    <string>СГМ</string>
+   </property>
+  </action>
+  <action name="actionKaratauMap">
+   <property name="text">
+    <string>Каратау</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../logos.qrc"/>
+  <include location="../MapsResize.qrc"/>
+  <include location="../MainWindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>
